@@ -44,3 +44,41 @@ body {
     color: white;
 }
 
+/* Main content */
+.main-content {
+    padding: 30px;
+    flex: 1;
+}
+
+/* Dashboard header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Admin profile */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.avatar {
+    background-color: #2563eb;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
