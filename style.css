@@ -81,4 +81,19 @@ body {
     align-items: center;
     justify-content: center;
 }
+/* Welcome section */
+.welcome {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
 
+.welcome h2 {
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    color: #64748b;
+}
