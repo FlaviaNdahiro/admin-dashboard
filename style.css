@@ -97,3 +97,29 @@ body {
 .welcome p {
     color: #64748b;
 }
+/* Statistics section */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* Individual statistics card */
+.stat-card {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.stat-card h3 {
+    color: #64748b;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.stat-card p {
+    color: #1e293b;
+    font-size: 25px;
+    font-weight: bold;
+}
